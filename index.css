@@ -1,7 +1,27 @@
-h1 {
-    font-size: 72px;
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace;
 }
 
-h2 {
-    color: red;
+.title {
+    font-size: 50px;
+}
+
+.about-me {
+    font-size: 20px;
+}
+
+.welcome {
+    font-size: 15px;
+}
+
+ul {
+    font-size: 20px;
+}
+
+.profile {
+    max-width: 40%;
+    max-height: auto;
 }
